@@ -1,0 +1,39 @@
+using System;
+using System.Collections;
+using System.Collections.Generic;
+using System.Numerics;
+using UnityEngine;
+
+public static class FormatNumber
+{
+
+    static string[] symbols = {
+            "", "k", "M", "B", "T"
+    };    
+    public static string Format(int num)
+    {
+        return (Mathf.Floor(num / (1 * Mathf.Pow(1000,(num.ToString().Length-1)/3)) * 100) / 100).ToString() + symbols[(num.ToString().Length-1)/3];
+    }
+    public static string Format(BigInteger num)
+    {
+        int magnitude = (int)((num.ToString().Length - 1) / 3);
+        BigInteger divisor = BigInteger.Pow(1000, magnitude);
+        BigInteger scaled = num * 100 / divisor; // multiply first to keep 2 decimals
+        BigInteger whole = scaled / 100;
+        BigInteger fraction = scaled % 100;
+        return $"{whole}{symbolHelp(magnitude)}";
+    }
+
+    public static string symbolHelp(int index)
+    {
+        char symbol1 = (char)(97 + (index - 5) / 26);
+        char symbol2 = (char)(97 + (index - 5) % 26);
+        if (index < 5)
+            return symbols[index];
+        else
+            return symbol1.ToString() + symbol2;
+    }
+
+
+    
+}

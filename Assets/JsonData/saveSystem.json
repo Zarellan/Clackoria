@@ -1,0 +1,497 @@
+{
+    "money": "10000001",
+    "multiply": "1",
+    "force": 5.0,
+    "distanceCap": 5.0,
+    "maxBalls": 20,
+    "marbles": [
+        {
+            "marblePos": {
+                "x": -0.2805255055427551,
+                "y": 0.46106499433517458
+            },
+            "marbleComp": {
+                "marbleName": "Marble",
+                "value": "1",
+                "clack": {
+                    "itemName": "Marble",
+                    "price": 20,
+                    "multiplier": 1,
+                    "description": "start marb",
+                    "sellPrice": 18,
+                    "color": {
+                        "r": 0.0,
+                        "g": 0.0,
+                        "b": 0.0,
+                        "a": 0.0
+                    },
+                    "isRandomColor": true,
+                    "nextClacker": [
+                        {
+                            "rid": 1000
+                        },
+                        {
+                            "rid": 1001
+                        }
+                    ],
+                    "itemBought": false
+                },
+                "col": {
+                    "r": 0.6274510025978088,
+                    "g": 0.125490203499794,
+                    "b": 0.9411764740943909,
+                    "a": 1.0
+                }
+            }
+        },
+        {
+            "marblePos": {
+                "x": -1.6954377889633179,
+                "y": -0.5220767259597778
+            },
+            "marbleComp": {
+                "marbleName": "Marble",
+                "value": "1",
+                "clack": {
+                    "itemName": "Marble",
+                    "price": 20,
+                    "multiplier": 1,
+                    "description": "start marb",
+                    "sellPrice": 18,
+                    "color": {
+                        "r": 0.0,
+                        "g": 0.0,
+                        "b": 0.0,
+                        "a": 0.0
+                    },
+                    "isRandomColor": true,
+                    "nextClacker": [
+                        {
+                            "rid": 1002
+                        },
+                        {
+                            "rid": 1003
+                        }
+                    ],
+                    "itemBought": false
+                },
+                "col": {
+                    "r": 0.6274510025978088,
+                    "g": 0.125490203499794,
+                    "b": 0.9411764740943909,
+                    "a": 1.0
+                }
+            }
+        }
+    ],
+    "clackerItemsBack": {
+        "name": "",
+        "dict": [
+            {
+                "itemName": "Marble",
+                "price": 20,
+                "multiplier": 1,
+                "description": "start marb",
+                "sellPrice": 18,
+                "color": {
+                    "r": 0.0,
+                    "g": 0.0,
+                    "b": 0.0,
+                    "a": 0.0
+                },
+                "isRandomColor": true,
+                "nextClacker": [
+                    {
+                        "rid": 1004
+                    },
+                    {
+                        "rid": 1005
+                    }
+                ],
+                "itemBought": false
+            }
+        ]
+    },
+    "skillItemsBack": {
+        "name": "",
+        "dict": [
+            {
+                "itemName": "Multiplier",
+                "price": 4,
+                "multiplier": 2.0,
+                "skillType": 0,
+                "description": "this will multiply it",
+                "priceTax": 1.2000000476837159,
+                "priceTaxInc": 0.30000001192092898,
+                "nextSkill": [
+                    {
+                        "rid": 1006
+                    }
+                ],
+                "level": 0,
+                "levelMax": 5,
+                "itemBought": false
+            }
+        ]
+    },
+    "references": {
+        "version": 2,
+        "RefIds": [
+            {
+                "rid": 1000,
+                "type": {
+                    "class": "ClackerData",
+                    "ns": "",
+                    "asm": "Assembly-CSharp"
+                },
+                "data": {
+                    "itemName": "MarbleSpec",
+                    "price": 400,
+                    "multiplier": 3,
+                    "description": "marble 2 hoho",
+                    "sellPrice": 380,
+                    "color": {
+                        "r": 0.0,
+                        "g": 0.0,
+                        "b": 0.0,
+                        "a": 0.0
+                    },
+                    "isRandomColor": true,
+                    "nextClacker": [],
+                    "itemBought": false
+                }
+            },
+            {
+                "rid": 1001,
+                "type": {
+                    "class": "ClackerData",
+                    "ns": "",
+                    "asm": "Assembly-CSharp"
+                },
+                "data": {
+                    "itemName": "dssd",
+                    "price": 3,
+                    "multiplier": 3,
+                    "description": "322323",
+                    "sellPrice": 0,
+                    "color": {
+                        "r": 0.0,
+                        "g": 0.0,
+                        "b": 0.0,
+                        "a": 0.0
+                    },
+                    "isRandomColor": false,
+                    "nextClacker": [
+                        {
+                            "rid": 1007
+                        },
+                        {
+                            "rid": 1008
+                        }
+                    ],
+                    "itemBought": false
+                }
+            },
+            {
+                "rid": 1002,
+                "type": {
+                    "class": "ClackerData",
+                    "ns": "",
+                    "asm": "Assembly-CSharp"
+                },
+                "data": {
+                    "itemName": "MarbleSpec",
+                    "price": 400,
+                    "multiplier": 3,
+                    "description": "marble 2 hoho",
+                    "sellPrice": 380,
+                    "color": {
+                        "r": 0.0,
+                        "g": 0.0,
+                        "b": 0.0,
+                        "a": 0.0
+                    },
+                    "isRandomColor": true,
+                    "nextClacker": [],
+                    "itemBought": false
+                }
+            },
+            {
+                "rid": 1003,
+                "type": {
+                    "class": "ClackerData",
+                    "ns": "",
+                    "asm": "Assembly-CSharp"
+                },
+                "data": {
+                    "itemName": "dssd",
+                    "price": 3,
+                    "multiplier": 3,
+                    "description": "322323",
+                    "sellPrice": 0,
+                    "color": {
+                        "r": 0.0,
+                        "g": 0.0,
+                        "b": 0.0,
+                        "a": 0.0
+                    },
+                    "isRandomColor": false,
+                    "nextClacker": [
+                        {
+                            "rid": 1009
+                        },
+                        {
+                            "rid": 1010
+                        }
+                    ],
+                    "itemBought": false
+                }
+            },
+            {
+                "rid": 1004,
+                "type": {
+                    "class": "ClackerData",
+                    "ns": "",
+                    "asm": "Assembly-CSharp"
+                },
+                "data": {
+                    "itemName": "MarbleSpec",
+                    "price": 400,
+                    "multiplier": 3,
+                    "description": "marble 2 hoho",
+                    "sellPrice": 380,
+                    "color": {
+                        "r": 0.0,
+                        "g": 0.0,
+                        "b": 0.0,
+                        "a": 0.0
+                    },
+                    "isRandomColor": true,
+                    "nextClacker": [],
+                    "itemBought": false
+                }
+            },
+            {
+                "rid": 1005,
+                "type": {
+                    "class": "ClackerData",
+                    "ns": "",
+                    "asm": "Assembly-CSharp"
+                },
+                "data": {
+                    "itemName": "dssd",
+                    "price": 3,
+                    "multiplier": 3,
+                    "description": "322323",
+                    "sellPrice": 0,
+                    "color": {
+                        "r": 0.0,
+                        "g": 0.0,
+                        "b": 0.0,
+                        "a": 0.0
+                    },
+                    "isRandomColor": false,
+                    "nextClacker": [
+                        {
+                            "rid": 1011
+                        },
+                        {
+                            "rid": 1012
+                        }
+                    ],
+                    "itemBought": false
+                }
+            },
+            {
+                "rid": 1006,
+                "type": {
+                    "class": "SkillData",
+                    "ns": "",
+                    "asm": "Assembly-CSharp"
+                },
+                "data": {
+                    "itemName": "ForcePower",
+                    "price": 200,
+                    "multiplier": 5.0,
+                    "skillType": 1,
+                    "description": "it make your mouse swiping stronger",
+                    "priceTax": 1.399999976158142,
+                    "priceTaxInc": 0.3499999940395355,
+                    "nextSkill": [
+                        {
+                            "rid": 1013
+                        }
+                    ],
+                    "level": 0,
+                    "levelMax": 10,
+                    "itemBought": false
+                }
+            },
+            {
+                "rid": 1007,
+                "type": {
+                    "class": "ClackerData",
+                    "ns": "",
+                    "asm": "Assembly-CSharp"
+                },
+                "data": {
+                    "itemName": "dasdasdas",
+                    "price": 33,
+                    "multiplier": 4,
+                    "description": "sddasdasdsaasd",
+                    "sellPrice": 0,
+                    "color": {
+                        "r": 0.0,
+                        "g": 0.0,
+                        "b": 0.0,
+                        "a": 0.0
+                    },
+                    "isRandomColor": false,
+                    "nextClacker": [],
+                    "itemBought": false
+                }
+            },
+            {
+                "rid": 1008,
+                "type": {
+                    "class": "ClackerData",
+                    "ns": "",
+                    "asm": "Assembly-CSharp"
+                },
+                "data": {
+                    "itemName": "dasdasdas22",
+                    "price": 33,
+                    "multiplier": 4,
+                    "description": "sddasdasdsaasd",
+                    "sellPrice": 0,
+                    "color": {
+                        "r": 0.0,
+                        "g": 0.0,
+                        "b": 0.0,
+                        "a": 0.0
+                    },
+                    "isRandomColor": false,
+                    "nextClacker": [],
+                    "itemBought": false
+                }
+            },
+            {
+                "rid": 1009,
+                "type": {
+                    "class": "ClackerData",
+                    "ns": "",
+                    "asm": "Assembly-CSharp"
+                },
+                "data": {
+                    "itemName": "dasdasdas",
+                    "price": 33,
+                    "multiplier": 4,
+                    "description": "sddasdasdsaasd",
+                    "sellPrice": 0,
+                    "color": {
+                        "r": 0.0,
+                        "g": 0.0,
+                        "b": 0.0,
+                        "a": 0.0
+                    },
+                    "isRandomColor": false,
+                    "nextClacker": [],
+                    "itemBought": false
+                }
+            },
+            {
+                "rid": 1010,
+                "type": {
+                    "class": "ClackerData",
+                    "ns": "",
+                    "asm": "Assembly-CSharp"
+                },
+                "data": {
+                    "itemName": "dasdasdas22",
+                    "price": 33,
+                    "multiplier": 4,
+                    "description": "sddasdasdsaasd",
+                    "sellPrice": 0,
+                    "color": {
+                        "r": 0.0,
+                        "g": 0.0,
+                        "b": 0.0,
+                        "a": 0.0
+                    },
+                    "isRandomColor": false,
+                    "nextClacker": [],
+                    "itemBought": false
+                }
+            },
+            {
+                "rid": 1011,
+                "type": {
+                    "class": "ClackerData",
+                    "ns": "",
+                    "asm": "Assembly-CSharp"
+                },
+                "data": {
+                    "itemName": "dasdasdas",
+                    "price": 33,
+                    "multiplier": 4,
+                    "description": "sddasdasdsaasd",
+                    "sellPrice": 0,
+                    "color": {
+                        "r": 0.0,
+                        "g": 0.0,
+                        "b": 0.0,
+                        "a": 0.0
+                    },
+                    "isRandomColor": false,
+                    "nextClacker": [],
+                    "itemBought": false
+                }
+            },
+            {
+                "rid": 1012,
+                "type": {
+                    "class": "ClackerData",
+                    "ns": "",
+                    "asm": "Assembly-CSharp"
+                },
+                "data": {
+                    "itemName": "dasdasdas22",
+                    "price": 33,
+                    "multiplier": 4,
+                    "description": "sddasdasdsaasd",
+                    "sellPrice": 0,
+                    "color": {
+                        "r": 0.0,
+                        "g": 0.0,
+                        "b": 0.0,
+                        "a": 0.0
+                    },
+                    "isRandomColor": false,
+                    "nextClacker": [],
+                    "itemBought": false
+                }
+            },
+            {
+                "rid": 1013,
+                "type": {
+                    "class": "SkillData",
+                    "ns": "",
+                    "asm": "Assembly-CSharp"
+                },
+                "data": {
+                    "itemName": "Cap Distance",
+                    "price": 1200,
+                    "multiplier": 0.699999988079071,
+                    "skillType": 2,
+                    "description": "the cap distance between the mouse and the marble will be increased",
+                    "priceTax": 1.2000000476837159,
+                    "priceTaxInc": 0.20000000298023225,
+                    "nextSkill": [],
+                    "level": 0,
+                    "levelMax": 7,
+                    "itemBought": false
+                }
+            }
+        ]
+    }
+}

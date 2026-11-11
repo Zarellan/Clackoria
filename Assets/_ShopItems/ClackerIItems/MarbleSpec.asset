@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb38a36c00dbf64f8ebfc3b03caf9c3, type: 3}
+  m_Name: MarbleSpec
+  m_EditorClassIdentifier: Assembly-CSharp::ClackerDataScriptable
+  itemName: MarbleSpec
+  price: 400
+  multiplier: 3
+  description: marble 2 hoho
+  color: {r: 0, g: 0, b: 0, a: 0}
+  sellPrice: 380
+  isRandomColor: 1
+  nextClacker: []
+  itemBought: 0
